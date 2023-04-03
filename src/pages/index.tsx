@@ -1,5 +1,7 @@
 import Hero from "@/components/Hero";
+import HowItWorks from "@/components/HowItWorks";
 import LearningPath from "@/components/LearningPath";
+import MidBanner from "@/components/MidBanner";
 import Head from "next/head";
 
 export default function Home() {
@@ -15,6 +17,8 @@ export default function Home() {
       <main className="text-white bg-black">
         <Hero />
         <LearningPath />
+        <HowItWorks />
+        <MidBanner />
       </main>
     </>
   );

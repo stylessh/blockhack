@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const LearningPath = () => {
   return (
-    <section className="w-[95%] mx-auto grid grid-cols-[20%,1fr] my-3">
+    <section className="w-[95%] mx-auto grid grid-cols-[20%,1fr] my-32">
       <article>
         <h3>(Our learning paths)</h3>
       </article>
