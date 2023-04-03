@@ -1,7 +1,9 @@
+import BlogList from "@/components/BlogList";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import LearningPath from "@/components/LearningPath";
 import MidBanner from "@/components/MidBanner";
+import Podcast from "@/components/Podcast";
 import Head from "next/head";
 
 export default function Home() {
@@ -19,6 +21,8 @@ export default function Home() {
         <LearningPath />
         <HowItWorks />
         <MidBanner />
+        <BlogList />
+        <Podcast />
       </main>
     </>
   );
