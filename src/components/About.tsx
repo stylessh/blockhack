@@ -6,8 +6,8 @@ import {
 
 const About = () => {
   return (
-    <section className="w-[95%] mx-auto my-32 grid grid-cols-3 gap-10">
-      <header className="col-span-3">
+    <section className="w-[95%] mx-auto my-32 grid md:grid-cols-3 gap-10">
+      <header className="md:col-span-3">
         <h3>(About)</h3>
       </header>
 

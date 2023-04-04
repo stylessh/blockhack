@@ -4,7 +4,7 @@ import { ChevronLeftIcon, PauseCircleIcon } from "@heroicons/react/24/solid";
 
 const chapters = [
   {
-    title: "Blockchain’s Role In Governance Blockchain’s Role In Governance",
+    title: "Blockchain’s Role In Governance",
     duration: "0:11:11",
     playing: true,
   },
@@ -32,8 +32,8 @@ const chapters = [
 
 const Podcast = () => {
   return (
-    <section className="w-[95%] mx-auto grid grid-cols-[20%,1fr] my-32 gap-10">
-      <header className="col-span-2">
+    <section className="w-[95%] mx-auto grid md:grid-cols-[20%,1fr] my-32 gap-10">
+      <header className="md:col-span-2">
         <h3>(Podcast)</h3>
       </header>
 

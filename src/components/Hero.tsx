@@ -3,13 +3,13 @@ import { PhoneIllustration } from "@/ui/illustrations";
 const Hero = () => {
   return (
     <section className="mt-10 mb-32 w-[95%] m-auto relative overflow-hidden">
-      <article className="border rounded-[50px] overflow-hidden grid grid-cols-2 h-[580px]">
-        <article className="grid place-items-center">
+      <article className="border rounded-[50px] overflow-hidden grid md:grid-cols-2 md:h-[580px]">
+        <article className="grid mt-16 place-items-center md:mt-0">
           <div className="w-[80%]">
-            <h1 className="uppercase text-7xl w-[80%] font-display leading-none">
+            <h1 className="uppercase text-4xl md:text-7xl w-[80%] font-display leading-none">
               Stuck in the world of blockchain?
             </h1>
-            <p className="my-2 w-[80%]">
+            <p className="my-2 md:w-[80%]">
               Navigating the crypto world can be Challenging, But Blockhacks is
               here to lead the way.
             </p>
@@ -22,7 +22,7 @@ const Hero = () => {
           </div>
         </article>
 
-        <PhoneIllustration className="absolute top-0 right-0 h-full" />
+        <PhoneIllustration className="top-0 right-0 w-full h-full mt-12 md:mt-0 md:w-auto md:absolute" />
       </article>
     </section>
   );

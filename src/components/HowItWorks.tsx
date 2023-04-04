@@ -6,14 +6,14 @@ import {
 
 const HowItWorks = () => {
   return (
-    <section className="w-[95%] mx-auto grid grid-cols-[20%,1fr] border rounded-3xl px-6 py-12 m-32">
+    <section className="w-[95%] mx-auto grid gap-y-10 md:grid-cols-[20%,1fr] border rounded-3xl px-6 py-12 m-32">
       <article>
         <h2>(How it works)</h2>
       </article>
 
       <article>
         <header>
-          <p className="w-1/2 text-xl">
+          <p className="text-xl md:w-1/2">
             Don't fall into the trap of uninspiring education. Our crypto
             courses are like a freshly baked apple pie - warm, personalized, and
             bursting with delicious knowledge that's easy to digest. So, say
@@ -23,7 +23,7 @@ const HowItWorks = () => {
           </p>
         </header>
 
-        <ol className="mt-24 grid grid-cols-3 gap-20 w-[60%]">
+        <ol className="mt-24 grid md:grid-cols-3 gap-20 md:w-[60%]">
           <li className="relative">
             <p className="font-display text-[15em] text-secondary-500 leading-[0.8] border-b text-center">
               01

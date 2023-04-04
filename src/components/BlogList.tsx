@@ -25,12 +25,12 @@ const posts = [
 
 const BlogList = () => {
   return (
-    <section className="w-[95%] mx-auto grid grid-cols-[20%,1fr] my-32">
+    <section className="w-[95%] mx-auto grid gap-y-10 md:grid-cols-[20%,1fr] my-32">
       <article>
         <h3>(Blog)</h3>
       </article>
 
-      <article className="grid grid-cols-[60%,1fr] gap-10">
+      <article className="grid md:grid-cols-[60%,1fr] gap-10">
         {posts.map((post, i) => (
           <PostCard {...post} key={i} />
         ))}

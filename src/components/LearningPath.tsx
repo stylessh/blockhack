@@ -8,23 +8,23 @@ import Link from "next/link";
 
 const LearningPath = () => {
   return (
-    <section className="w-[95%] mx-auto grid grid-cols-[20%,1fr] my-32">
+    <section className="w-[95%] mx-auto grid gap-y-10 md:grid-cols-[20%,1fr] my-32">
       <article>
         <h3>(Our learning paths)</h3>
       </article>
 
       <article className="space-y-10">
         <header>
-          <h2 className="text-2xl font-bold w-[50%] uppercase">
+          <h2 className="text-2xl font-bold md:w-[50%] uppercase">
             Discover the Building Blocks of the Crypto Revolution one at a time
             “Continue building your knowledge in crypto”.
           </h2>
         </header>
 
         {/* card one */}
-        <article className="grid grid-cols-2 p-6 text-black bg-primary-500 rounded-3xl">
+        <article className="grid p-6 text-black md:grid-cols-2 bg-primary-500 rounded-3xl">
           <div className="flex flex-col justify-center">
-            <h2 className="text-secondary-500 text-[8em] font-display leading-none">
+            <h2 className="text-secondary-500 text-6xl md:text-[8em] font-display leading-none">
               Rollups
             </h2>
             <p className="my-4 font-semibold w-[80%]">
@@ -59,14 +59,14 @@ const LearningPath = () => {
               <h3 className="text-xl text-gray-500">49 feedback</h3>
             </div>
 
-            <StairsIllustration className="mr-8" />
+            <StairsIllustration className="w-full md:mr-8" />
           </div>
         </article>
 
         {/* card two */}
-        <article className="grid grid-cols-2 p-6 text-white bg-black border rounded-3xl">
+        <article className="grid p-6 text-white bg-black border md:grid-cols-2 rounded-3xl">
           <div className="flex flex-col justify-center">
-            <h2 className="text-secondary-500 text-[8em] font-display leading-none">
+            <h2 className="text-secondary-500 text-6xl md:text-[8em] font-display leading-none">
               Layer 2’s
             </h2>
             <p className="my-4 font-semibold w-[80%]">
@@ -101,14 +101,14 @@ const LearningPath = () => {
               <h3 className="text-xl text-gray-500">21 feedback</h3>
             </div>
 
-            <BitcoinToEthereumIllustration className="mr-8" />
+            <BitcoinToEthereumIllustration className="w-full md:mr-8" />
           </div>
         </article>
 
         {/* card three */}
-        <article className="grid grid-cols-2 p-6 text-white border bg-secondary-500 rounded-3xl">
+        <article className="grid p-6 text-white border md:grid-cols-2 bg-secondary-500 rounded-3xl">
           <div className="flex flex-col justify-center">
-            <h2 className="text-primary-500 text-[8em] font-display leading-none">
+            <h2 className="text-primary-500 text-6xl md:text-[8em] font-display leading-none">
               Metaverse
             </h2>
             <p className="my-4 font-semibold w-[80%]">
@@ -143,7 +143,7 @@ const LearningPath = () => {
               <h3 className="text-xl text-gray-300">60 feedback</h3>
             </div>
 
-            <EthereumDeskIllustration className="mr-8" />
+            <EthereumDeskIllustration className="w-full md:mr-8" />
           </div>
         </article>
 
