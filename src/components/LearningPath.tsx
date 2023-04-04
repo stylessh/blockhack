@@ -77,7 +77,7 @@ const LearningPath = () => {
             </p>
 
             <Link
-              href="#"
+              href="/course/layer-2"
               className="block mt-2 text-3xl underline uppercase font-display"
             >
               Learn More
@@ -119,7 +119,7 @@ const LearningPath = () => {
             </p>
 
             <Link
-              href="#"
+              href="/course/metaverse"
               className="block mt-2 text-3xl underline uppercase font-display"
             >
               Learn More
