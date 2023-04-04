@@ -4,22 +4,22 @@ import PostCard from "./PostCard";
 const posts = [
   {
     title: "The Future of Decentralized Finance and How to Navigate It",
-    date: "2021-10-10",
+    date: "2022-10-10",
   },
   {
     title: "he Evolution of NFTs: From Digital Art to Real-World Utility",
-    date: "2021-10-10",
+    date: "2022-12-23",
   },
   {
     title:
       "The Environmental Impact of Cryptocurrencies: Exploring Sustainable Alternatives",
-    date: "2021-10-10",
+    date: "2023-01-25",
     featured: true,
   },
   {
     title:
       "Layer 2 vs. Layer 1: A Comparison of Scaling Solutions for Ethereum",
-    date: "2021-10-10",
+    date: "2021-03-10",
   },
 ];
 
