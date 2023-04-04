@@ -14,7 +14,7 @@ const Navbar = () => {
 
       <Menu
         as="nav"
-        className="absolute top-0 z-50 flex flex-col items-center -translate-x-1/2 outline-none left-1/2"
+        className="absolute top-0 right-0 z-50 flex flex-col items-center outline-none md:-translate-x-1/2 md:left-1/2"
       >
         <Menu.Items className="flex flex-col text-center text-black divide-y divide-black shadow-2xl w-72 top-12 bg-primary-500 rounded-2xl">
           <Menu.Item>
@@ -63,7 +63,7 @@ const Navbar = () => {
       </Menu>
 
       {/* button */}
-      <div className="flex items-center space-x-2">
+      <div className="items-center hidden space-x-2 md:flex">
         <button className="inline-flex items-center px-8 py-1 text-2xl text-white border border-white rounded-full">
           <EthereumIcon className="mr-2" />
           ETHEREUM

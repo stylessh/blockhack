@@ -311,19 +311,19 @@ const Rollups = () => {
 
       <main className="text-white bg-black">
         {/* hero */}
-        <section className="relative grid h-[calc(100vh-5em)] overflow-hidden place-items-center">
+        <section className="relative grid min-h-[calc(100vh-5em)] overflow-hidden place-items-center">
           <WireframeIllustration className="absolute inset-0 z-0" />
-          <EtherIllustration className="absolute w-32 bottom-20 right-20" />
-          <EtherOpenIllustration className="absolute w-32 top-20 left-20" />
+          <EtherIllustration className="absolute bottom-0 w-32 right-5 md:bottom-20 md:right-20" />
+          <EtherOpenIllustration className="absolute left-0 w-32 top-5 md:top-20 md:left-20" />
 
-          <article className="relative z-10 w-full max-w-screen-md p-10 shadow-2xl bg-secondary-500 rounded-2xl">
+          <article className="relative z-10 w-[90%] max-w-screen-md p-10 shadow-2xl bg-secondary-500 rounded-2xl">
             <h1 className="text-center text-white text-8xl font-display">
               ROLLUPS
             </h1>
 
             <RollupsIllustration className="-mt-10" />
 
-            <p className="w-1/2 mx-auto text-center">
+            <p className="mx-auto mt-4 text-center md:w-1/2">
               Understanding the Future of Scalable and Efficient Blockchain
               Solutions
             </p>
@@ -336,7 +336,7 @@ const Rollups = () => {
             </Link>
 
             {/* floating reviews */}
-            <article className="absolute z-20 px-6 py-4 text-center text-black bg-white border border-black -left-32 bottom-10 rounded-2xl">
+            <article className="absolute z-20 hidden px-6 py-4 text-center text-black bg-white border border-black md:block -left-32 bottom-10 rounded-2xl">
               <h3 className="font-bold">“Perfect course”</h3>
               <p className="text-sm">Ralph Edwards</p>
 
@@ -349,7 +349,7 @@ const Rollups = () => {
               </div>
             </article>
 
-            <article className="absolute z-20 px-6 py-4 text-center text-black bg-white border border-black -right-32 top-10 rounded-2xl">
+            <article className="absolute z-20 hidden px-6 py-4 text-center text-black bg-white border border-black md:block -right-32 top-10 rounded-2xl">
               <h3 className="font-bold">“Great content”</h3>
               <p className="text-sm">Steven Mendes</p>
 
@@ -365,14 +365,14 @@ const Rollups = () => {
         </section>
 
         {/* about */}
-        <section className="w-[95%] mx-auto grid grid-cols-[20%,1fr] py-12 mb-32">
+        <section className="w-[95%] mx-auto grid gap-y-10 md:grid-cols-[20%,1fr] py-12 mb-32">
           <article>
             <h2>(About course)</h2>
           </article>
 
           <article>
             <header>
-              <p className="w-1/2 text-xl">
+              <p className="text-xl md:w-1/2">
                 This course plan provides a comprehensive framework for
                 mastering Rollups, covering their fundamentals, types,
                 platforms, applications, development, tokenomics, governance,
@@ -380,7 +380,7 @@ const Rollups = () => {
               </p>
             </header>
 
-            <ol className="mt-24 grid grid-cols-3 gap-20 w-[60%]">
+            <ol className="mt-24 grid md:grid-cols-3 gap-20 md:w-[60%]">
               <li className="relative">
                 <p className="font-display text-[15em] text-secondary-500 leading-[0.8] border-b text-center">
                   36
@@ -408,13 +408,13 @@ const Rollups = () => {
         </section>
 
         {/* composition */}
-        <section className="relative w-[95%] mx-auto border rounded-2xl grid grid-cols-2 px-8 py-12 mb-32">
+        <section className="relative w-[95%] mx-auto border rounded-2xl grid gap-y-10 md:grid-cols-2 px-8 py-12 mb-32">
           <article>
             <h2 className="mb-4 text-6xl font-display">
               Rollups course composition.
             </h2>
 
-            <p className="w-[80%]">
+            <p className="md:w-[80%]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
               commodi incidunt quo sed amet officia. Lorem ipsum, dolor sit amet
               consectetur adipisicing elit. Iste, aliquam?
@@ -447,13 +447,13 @@ const Rollups = () => {
             ))}
           </article>
 
-          <EtherCapsuleIllustration className="absolute top-0 w-36 left-[45%]" />
-          <BitcoinPlantIllustration className="absolute w-20 -right-5 -bottom-5" />
-          <BookIllustration className="absolute w-32 left-[30%] top-1/2" />
+          <EtherCapsuleIllustration className="hidden md:block absolute top-0 w-36 left-[45%]" />
+          <BitcoinPlantIllustration className="absolute right-0 w-20 md:-right-5 -bottom-5" />
+          <BookIllustration className="hidden md:block absolute w-32 left-[30%] top-1/2" />
         </section>
 
         {/* program */}
-        <section className="w-[95%] mx-auto mb-32 grid grid-cols-[20%,1fr]">
+        <section className="w-[95%] mx-auto mb-32 grid gap-y-10 md:grid-cols-[20%,1fr]">
           <article>
             <h2>(Course program)</h2>
           </article>
@@ -461,10 +461,10 @@ const Rollups = () => {
           <article className="overflow-hidden border divide-y rounded-2xl">
             {program.map((chapter) => (
               <Disclosure as="div" key={chapter.id}>
-                <Disclosure.Button className="flex items-center justify-between w-full px-4 py-6 ui-open:mb-4 ui-open:bg-primary-500 ui-open:text-black ui-open:rounded-b-3xl">
-                  <div className="flex gap-5 font-semibold text-white uppercase ui-open:text-black">
+                <Disclosure.Button className="flex flex-wrap items-center justify-between w-full gap-4 px-4 py-6 ui-open:mb-4 ui-open:bg-primary-500 ui-open:text-black ui-open:rounded-b-3xl">
+                  <div className="flex gap-2 font-semibold text-white uppercase ui-open:text-black">
                     <ArrowDownCircleIcon className="w-6 h-6 ui-open:-rotate-180" />
-                    <p>{chapter.title}</p>
+                    <p className="text-sm text-left">{chapter.title}</p>
                   </div>
 
                   <p className="font-normal">
@@ -476,7 +476,7 @@ const Rollups = () => {
                   {chapter.episodes.map((ep) => (
                     <div key={ep.id}>
                       <button className="flex items-center justify-between w-full">
-                        <div className="flex gap-5">
+                        <div className="flex gap-2">
                           <PlayCircleIcon className="w-6 h-6" />
                           <p className="text-sm">{ep.title}</p>
                         </div>
@@ -492,7 +492,7 @@ const Rollups = () => {
         </section>
 
         {/* pricing */}
-        <section className="w-[55%] mx-auto grid grid-cols-2 gap-20">
+        <section className="w-[90%] md:w-[55%] mx-auto grid md:grid-cols-2 gap-20">
           <article className="p-4 text-black divide-y divide-black bg-primary-500 rounded-2xl">
             <header className="py-4">
               <h2 className="text-4xl text-center font-display">
@@ -524,7 +524,7 @@ const Rollups = () => {
           </article>
 
           <article className="relative p-4 text-white divide-y divide-white bg-secondary-500 rounded-2xl">
-            <MostPopularIllustration className="absolute w-20 -top-10 -left-10" />
+            <MostPopularIllustration className="absolute left-0 w-20 -top-10 md:-left-10" />
 
             <header className="py-4">
               <h2 className="text-4xl text-center font-display">
