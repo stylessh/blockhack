@@ -22,7 +22,7 @@ const LearningPath = () => {
         </header>
 
         {/* card one */}
-        <article className="bg-primary-500 p-6 rounded-3xl text-black grid grid-cols-2">
+        <article className="grid grid-cols-2 p-6 text-black bg-primary-500 rounded-3xl">
           <div className="flex flex-col justify-center">
             <h2 className="text-secondary-500 text-[8em] font-display leading-none">
               Rollups
@@ -35,8 +35,8 @@ const LearningPath = () => {
             </p>
 
             <Link
-              href="#"
-              className="uppercase font-display text-3xl underline block mt-2"
+              href="/course/rollups"
+              className="block mt-2 text-3xl underline uppercase font-display"
             >
               Learn More
             </Link>
@@ -48,15 +48,15 @@ const LearningPath = () => {
                 <p className="text-2xl font-semibold">4,8</p>
 
                 <div className="inline-flex items-center space-x-1">
-                  <StarIcon className="h-6 w-6 text-secondary-500" />
-                  <StarIcon className="h-6 w-6 text-secondary-500" />
-                  <StarIcon className="h-6 w-6 text-secondary-500" />
-                  <StarIcon className="h-6 w-6 text-secondary-500" />
-                  <StarIcon className="h-6 w-6 text-secondary-500" />
+                  <StarIcon className="w-6 h-6 text-secondary-500" />
+                  <StarIcon className="w-6 h-6 text-secondary-500" />
+                  <StarIcon className="w-6 h-6 text-secondary-500" />
+                  <StarIcon className="w-6 h-6 text-secondary-500" />
+                  <StarIcon className="w-6 h-6 text-secondary-500" />
                 </div>
               </div>
 
-              <h3 className="text-gray-500 text-xl">49 feedback</h3>
+              <h3 className="text-xl text-gray-500">49 feedback</h3>
             </div>
 
             <StairsIllustration className="mr-8" />
@@ -64,7 +64,7 @@ const LearningPath = () => {
         </article>
 
         {/* card two */}
-        <article className="bg-black p-6 rounded-3xl text-white border grid grid-cols-2">
+        <article className="grid grid-cols-2 p-6 text-white bg-black border rounded-3xl">
           <div className="flex flex-col justify-center">
             <h2 className="text-secondary-500 text-[8em] font-display leading-none">
               Layer 2’s
@@ -78,7 +78,7 @@ const LearningPath = () => {
 
             <Link
               href="#"
-              className="uppercase font-display text-3xl underline block mt-2"
+              className="block mt-2 text-3xl underline uppercase font-display"
             >
               Learn More
             </Link>
@@ -90,15 +90,15 @@ const LearningPath = () => {
                 <p className="text-2xl font-semibold">4,9</p>
 
                 <div className="inline-flex items-center space-x-1">
-                  <StarIcon className="h-6 w-6 text-primary-500" />
-                  <StarIcon className="h-6 w-6 text-primary-500" />
-                  <StarIcon className="h-6 w-6 text-primary-500" />
-                  <StarIcon className="h-6 w-6 text-primary-500" />
-                  <StarIcon className="h-6 w-6 text-primary-500" />
+                  <StarIcon className="w-6 h-6 text-primary-500" />
+                  <StarIcon className="w-6 h-6 text-primary-500" />
+                  <StarIcon className="w-6 h-6 text-primary-500" />
+                  <StarIcon className="w-6 h-6 text-primary-500" />
+                  <StarIcon className="w-6 h-6 text-primary-500" />
                 </div>
               </div>
 
-              <h3 className="text-gray-500 text-xl">21 feedback</h3>
+              <h3 className="text-xl text-gray-500">21 feedback</h3>
             </div>
 
             <BitcoinToEthereumIllustration className="mr-8" />
@@ -106,7 +106,7 @@ const LearningPath = () => {
         </article>
 
         {/* card three */}
-        <article className="bg-secondary-500 p-6 rounded-3xl text-white border grid grid-cols-2">
+        <article className="grid grid-cols-2 p-6 text-white border bg-secondary-500 rounded-3xl">
           <div className="flex flex-col justify-center">
             <h2 className="text-primary-500 text-[8em] font-display leading-none">
               Metaverse
@@ -120,7 +120,7 @@ const LearningPath = () => {
 
             <Link
               href="#"
-              className="uppercase font-display text-3xl underline block mt-2"
+              className="block mt-2 text-3xl underline uppercase font-display"
             >
               Learn More
             </Link>
@@ -132,15 +132,15 @@ const LearningPath = () => {
                 <p className="text-2xl font-semibold">4,9</p>
 
                 <div className="inline-flex items-center space-x-1">
-                  <StarIcon className="h-6 w-6 text-primary-500" />
-                  <StarIcon className="h-6 w-6 text-primary-500" />
-                  <StarIcon className="h-6 w-6 text-primary-500" />
-                  <StarIcon className="h-6 w-6 text-primary-500" />
-                  <StarIcon className="h-6 w-6 text-primary-500" />
+                  <StarIcon className="w-6 h-6 text-primary-500" />
+                  <StarIcon className="w-6 h-6 text-primary-500" />
+                  <StarIcon className="w-6 h-6 text-primary-500" />
+                  <StarIcon className="w-6 h-6 text-primary-500" />
+                  <StarIcon className="w-6 h-6 text-primary-500" />
                 </div>
               </div>
 
-              <h3 className="text-gray-300 text-xl">60 feedback</h3>
+              <h3 className="text-xl text-gray-300">60 feedback</h3>
             </div>
 
             <EthereumDeskIllustration className="mr-8" />
@@ -149,7 +149,7 @@ const LearningPath = () => {
 
         <Link
           href="#"
-          className="uppercase font-display text-3xl underline block mt-2"
+          className="block mt-2 text-3xl underline uppercase font-display"
         >
           More Courses
         </Link>

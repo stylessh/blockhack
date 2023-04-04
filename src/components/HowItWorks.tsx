@@ -3,7 +3,6 @@ import {
   LupeIllustration,
   RocketIllustration,
 } from "@/ui/illustrations";
-import React from "react";
 
 const HowItWorks = () => {
   return (

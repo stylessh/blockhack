@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import About from "@/components/About";
 import BlogList from "@/components/BlogList";
 import Footer from "@/components/Footer";
@@ -7,7 +9,6 @@ import LearningPath from "@/components/LearningPath";
 import MidBanner from "@/components/MidBanner";
 import Podcast from "@/components/Podcast";
 import Reviews from "@/components/Reviews";
-import Head from "next/head";
 
 export default function Home() {
   return (
@@ -28,8 +29,9 @@ export default function Home() {
         <Podcast />
         <Reviews />
         <About />
-        <Footer />
       </main>
+
+      <Footer />
     </>
   );
 }
