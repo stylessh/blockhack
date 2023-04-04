@@ -6,7 +6,7 @@ const MidBanner = () => {
     <section className="w-[95%] mx-auto relative mb-32">
       <TerrainIllustration className="w-full" />
 
-      <h2 className="text-secondary-500 font-display text-6xl uppercase absolute top-[45%] left-[25%] w-[40%]">
+      <h2 className="text-secondary-500 font-display text-6xl uppercase absolute top-[40%] left-[25%] w-[40%]">
         Beware of the bland and boring crypto courses that promise the moon and
         deliver only crumbs of basic knowledge.
       </h2>
