@@ -345,7 +345,7 @@ const Metaverse = () => {
 
             <Link
               href="#"
-              className="block px-8 py-1 mx-auto mt-6 text-2xl text-white border border-white rounded-full w-max font-display"
+              className="block px-8 py-1 mx-auto mt-6 text-2xl text-white transition border border-white rounded-full w-max font-display hover:bg-white/10"
             >
               Start now
             </Link>
@@ -437,7 +437,7 @@ const Metaverse = () => {
 
             <Link
               href="#"
-              className="inline-block px-8 py-1 mt-6 text-2xl text-white border border-white rounded-full w-max font-display"
+              className="inline-block px-8 py-1 mt-6 text-2xl text-white transition border border-white rounded-full w-max font-display hover:bg-white/10"
             >
               Start now
             </Link>
@@ -532,7 +532,7 @@ const Metaverse = () => {
                 <li>The fourth course description</li>
               </ul>
 
-              <button className="w-full py-2 mt-6 text-2xl uppercase border border-black rounded-full font-display">
+              <button className="w-full py-2 mt-6 text-2xl uppercase transition border border-black rounded-full font-display hover:bg-black/10">
                 Buy now
               </button>
             </div>
@@ -564,7 +564,7 @@ const Metaverse = () => {
                 <li>The fourth course description</li>
               </ul>
 
-              <button className="w-full py-2 mt-6 text-2xl uppercase border border-white rounded-full font-display">
+              <button className="w-full py-2 mt-6 text-2xl uppercase transition border border-white rounded-full font-display hover:bg-white/10">
                 Buy now
               </button>
             </div>

@@ -361,7 +361,7 @@ const Layer2 = () => {
 
             <Link
               href="#"
-              className="block px-8 py-1 mx-auto mt-6 text-2xl text-white border border-white rounded-full w-max font-display"
+              className="block px-8 py-1 mx-auto mt-6 text-2xl text-white transition border border-white rounded-full hover:bg-white/10 w-max font-display"
             >
               Start now
             </Link>
@@ -454,7 +454,7 @@ const Layer2 = () => {
 
             <Link
               href="#"
-              className="inline-block px-8 py-1 mt-6 text-2xl text-white border border-white rounded-full w-max font-display"
+              className="inline-block px-8 py-1 mt-6 text-2xl text-white transition border border-white rounded-full hover:bg-white/10 w-max font-display"
             >
               Start now
             </Link>
@@ -549,7 +549,7 @@ const Layer2 = () => {
                 <li>The fourth course description</li>
               </ul>
 
-              <button className="w-full py-2 mt-6 text-2xl uppercase border border-black rounded-full font-display">
+              <button className="w-full py-2 mt-6 text-2xl uppercase transition border border-black rounded-full hover:bg-black/10 font-display">
                 Buy now
               </button>
             </div>
@@ -581,7 +581,7 @@ const Layer2 = () => {
                 <li>The fourth course description</li>
               </ul>
 
-              <button className="w-full py-2 mt-6 text-2xl uppercase border border-white rounded-full font-display">
+              <button className="w-full py-2 mt-6 text-2xl uppercase transition border border-white rounded-full hover:bg-white/10 font-display">
                 Buy now
               </button>
             </div>

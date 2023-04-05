@@ -322,7 +322,7 @@ const Web3AndBlockchain = () => {
 
             <Link
               href="#"
-              className="block px-8 py-1 mx-auto mt-6 text-2xl text-white transition border border-white rounded-full w-max font-display hover:bg-white/10"
+              className="block px-8 py-1 mx-auto mt-6 text-2xl text-white transition border border-white rounded-full hover:bg-white/10 w-max font-display"
             >
               Start now
             </Link>
