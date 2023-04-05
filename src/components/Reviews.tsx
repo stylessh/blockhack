@@ -38,36 +38,70 @@ const Reviews = () => {
         <h3>(Reviews)</h3>
       </header>
 
-      <div className="flex gap-10 mt-10 w-max animate-marquee-long">
-        {reviews.map((review) => (
-          <article
-            key={review.id}
-            className={`border border-primary-500 rounded-3xl p-4 flex flex-col justify-between min-w-[380px] max-w-[420px]`}
-          >
-            <header className="mb-8">
-              <h2 className="">{review.content}</h2>
-            </header>
+      <div className="flex gap-10 w-max">
+        <div className="flex gap-10 mt-10 w-max animate-marquee-long">
+          {reviews.map((review) => (
+            <article
+              key={review.id}
+              className={`border border-primary-500 rounded-3xl p-4 flex flex-col justify-between min-w-[380px] max-w-[420px]`}
+            >
+              <header className="mb-8">
+                <h2 className="">{review.content}</h2>
+              </header>
 
-            <footer className="flex items-center justify-between pt-6 border-t border-primary-500">
-              <div className="flex items-center gap-2">
-                <div className="h-12 bg-gray-300 rounded-full aspect-square"></div>
+              <footer className="flex items-center justify-between pt-6 border-t border-primary-500">
+                <div className="flex items-center gap-2">
+                  <div className="h-12 bg-gray-300 rounded-full aspect-square"></div>
 
-                <div className="text-gray-400">
-                  <h3 className="font-bold">{review.author}</h3>
-                  <p className="text-sm">Course: {review.course}</p>
+                  <div className="text-gray-400">
+                    <h3 className="font-bold">{review.author}</h3>
+                    <p className="text-sm">Course: {review.course}</p>
+                  </div>
                 </div>
-              </div>
 
-              <div className="inline-flex items-center self-start space-x-1">
-                <StarIcon className="w-4 h-4 text-primary-500" />
-                <StarIcon className="w-4 h-4 text-primary-500" />
-                <StarIcon className="w-4 h-4 text-primary-500" />
-                <StarIcon className="w-4 h-4 text-primary-500" />
-                <StarIcon className="w-4 h-4 text-primary-500" />
-              </div>
-            </footer>
-          </article>
-        ))}
+                <div className="inline-flex items-center self-start space-x-1">
+                  <StarIcon className="w-4 h-4 text-primary-500" />
+                  <StarIcon className="w-4 h-4 text-primary-500" />
+                  <StarIcon className="w-4 h-4 text-primary-500" />
+                  <StarIcon className="w-4 h-4 text-primary-500" />
+                  <StarIcon className="w-4 h-4 text-primary-500" />
+                </div>
+              </footer>
+            </article>
+          ))}
+        </div>
+
+        <div className="flex gap-10 mt-10 w-max animate-marquee-long-second">
+          {reviews.map((review) => (
+            <article
+              key={review.id}
+              className={`border border-primary-500 rounded-3xl p-4 flex flex-col justify-between min-w-[380px] max-w-[420px]`}
+            >
+              <header className="mb-8">
+                <h2 className="">{review.content}</h2>
+              </header>
+
+              <footer className="flex items-center justify-between pt-6 border-t border-primary-500">
+                <div className="flex items-center gap-2">
+                  <div className="h-12 bg-gray-300 rounded-full aspect-square"></div>
+
+                  <div className="text-gray-400">
+                    <h3 className="font-bold">{review.author}</h3>
+                    <p className="text-sm">Course: {review.course}</p>
+                  </div>
+                </div>
+
+                <div className="inline-flex items-center self-start space-x-1">
+                  <StarIcon className="w-4 h-4 text-primary-500" />
+                  <StarIcon className="w-4 h-4 text-primary-500" />
+                  <StarIcon className="w-4 h-4 text-primary-500" />
+                  <StarIcon className="w-4 h-4 text-primary-500" />
+                  <StarIcon className="w-4 h-4 text-primary-500" />
+                </div>
+              </footer>
+            </article>
+          ))}
+        </div>
       </div>
     </section>
   );
