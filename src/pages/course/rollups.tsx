@@ -109,22 +109,22 @@ const program = [
     episodes: [
       {
         id: 1,
-        title: "1. Optimistic Rollups: Overview and Mechanics",
+        title: "1. Overview of major Rollup solutions",
         time: "5m",
       },
       {
         id: 2,
-        title: "2. ZK-Rollups: zero-knowledge proofs and privacy",
+        title: "2. Ethereum Rollup ecosystem",
         time: "15m",
       },
       {
         id: 3,
-        title: "3. Hybrid Rollups: combining optimistic and ZK-Rollups",
+        title: "3. Rollup solutions for other blockchains",
         time: "8m",
       },
       {
         id: 4,
-        title: "4. Comparing Rollup solutions: trade-offs and use cases",
+        title: "4. Interoperability and cross-chain bridges",
         time: "5m",
       },
     ],
@@ -137,22 +137,22 @@ const program = [
     episodes: [
       {
         id: 1,
-        title: "1. Optimistic Rollups: Overview and Mechanics",
+        title: "1. Decentralized finance (DeFi) and Rollups",
         time: "5m",
       },
       {
         id: 2,
-        title: "2. ZK-Rollups: zero-knowledge proofs and privacy",
+        title: "2. Gaming, NFTs, and virtual worlds",
         time: "15m",
       },
       {
         id: 3,
-        title: "3. Hybrid Rollups: combining optimistic and ZK-Rollups",
+        title: "3. Decentralized identity and data privacy",
         time: "8m",
       },
       {
         id: 4,
-        title: "4. Comparing Rollup solutions: trade-offs and use cases",
+        title: "4. Enterprise and supply chain management",
         time: "5m",
       },
     ],
@@ -165,22 +165,22 @@ const program = [
     episodes: [
       {
         id: 1,
-        title: "1. Optimistic Rollups: Overview and Mechanics",
+        title: "1. Smart contracts on Rollup chains",
         time: "5m",
       },
       {
         id: 2,
-        title: "2. ZK-Rollups: zero-knowledge proofs and privacy",
+        title: "2. Tools and SDKs for Rollup development",
         time: "15m",
       },
       {
         id: 3,
-        title: "3. Hybrid Rollups: combining optimistic and ZK-Rollups",
+        title: "3. Deployment and testing strategies",
         time: "8m",
       },
       {
         id: 4,
-        title: "4. Comparing Rollup solutions: trade-offs and use cases",
+        title: "4. Rollup security and auditing best practices",
         time: "5m",
       },
     ],
@@ -193,22 +193,22 @@ const program = [
     episodes: [
       {
         id: 1,
-        title: "1. Optimistic Rollups: Overview and Mechanics",
+        title: "1. Token models for Rollup solutions",
         time: "5m",
       },
       {
         id: 2,
-        title: "2. ZK-Rollups: zero-knowledge proofs and privacy",
+        title: "2. Incentives and staking in Rollup networks",
         time: "15m",
       },
       {
         id: 3,
-        title: "3. Hybrid Rollups: combining optimistic and ZK-Rollups",
+        title: "3. Gas fees and transaction costs",
         time: "8m",
       },
       {
         id: 4,
-        title: "4. Comparing Rollup solutions: trade-offs and use cases",
+        title: "4. Managing network congestion and load",
         time: "5m",
       },
     ],
@@ -221,78 +221,106 @@ const program = [
     episodes: [
       {
         id: 1,
-        title: "1. Optimistic Rollups: Overview and Mechanics",
+        title: "1. Decentralized autonomous organizations (DAOs) in Rollups",
         time: "5m",
       },
       {
         id: 2,
-        title: "2. ZK-Rollups: zero-knowledge proofs and privacy",
+        title: "2. Governance tokens and voting mechanisms",
         time: "15m",
       },
       {
         id: 3,
-        title: "3. Hybrid Rollups: combining optimistic and ZK-Rollups",
+        title: "3. The role of validators and arbitrators",
         time: "8m",
       },
       {
         id: 4,
-        title: "4. Comparing Rollup solutions: trade-offs and use cases",
+        title: "4. Rollup infrastructure and service providers",
         time: "5m",
       },
     ],
   },
   {
     id: 8,
-    title: "Chapter 9: The future of Rollups and blockchain scalability",
+    title: "Chapter 8: Risk management and security in Rollups",
     lessons: 4,
     averageTime: "15m",
     episodes: [
       {
         id: 1,
-        title: "1. Optimistic Rollups: Overview and Mechanics",
+        title: "1. Identifying and mitigating Rollup risks",
         time: "5m",
       },
       {
         id: 2,
-        title: "2. ZK-Rollups: zero-knowledge proofs and privacy",
+        title: "2. Fraud proofs and data availability",
         time: "15m",
       },
       {
         id: 3,
-        title: "3. Hybrid Rollups: combining optimistic and ZK-Rollups",
+        title: "3. Centralization concerns and trade-offs",
         time: "8m",
       },
       {
         id: 4,
-        title: "4. Comparing Rollup solutions: trade-offs and use cases",
+        title: "4. Wallet security and key management",
         time: "5m",
       },
     ],
   },
   {
     id: 9,
-    title: "Chapter 2: Types of Rollups",
+    title: "Chapter 9: The future of Rollups and blockchain scalability",
     lessons: 4,
     averageTime: "15m",
     episodes: [
       {
         id: 1,
-        title: "1. Optimistic Rollups: Overview and Mechanics",
+        title: "1. Ongoing developments and innovations",
         time: "5m",
       },
       {
         id: 2,
-        title: "2. ZK-Rollups: zero-knowledge proofs and privacy",
+        title: "2. Rollup solutions for emerging blockchain networks",
         time: "15m",
       },
       {
         id: 3,
-        title: "3. Hybrid Rollups: combining optimistic and ZK-Rollups",
+        title: "3. Interoperable and cross-chain Rollup networks",
         time: "8m",
       },
       {
         id: 4,
-        title: "4. Comparing Rollup solutions: trade-offs and use cases",
+        title: "4. The Long-term vision for scalable and efficient blockchains",
+        time: "5m",
+      },
+    ],
+  },
+  {
+    id: 10,
+    title: "Chapter 10: Practical Rollup integration and adoption",
+    lessons: 4,
+    averageTime: "15m",
+    episodes: [
+      {
+        id: 1,
+        title: "1. Setting up Rollup wallets and accounts",
+        time: "5m",
+      },
+      {
+        id: 2,
+        title: "2. Interacting with Rollup protocols and applications",
+        time: "15m",
+      },
+      {
+        id: 3,
+        title: "3. Rollup migration strategies for developers",
+        time: "8m",
+      },
+      {
+        id: 4,
+        title: "4. Case studies and real-world implementations",
         time: "5m",
       },
     ],

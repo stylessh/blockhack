@@ -40,6 +40,7 @@ module.exports = {
 
       animation: {
         marquee: "marquee 30s linear infinite",
+        "marquee-long": "marquee 60s linear infinite",
       },
       keyframes: {
         marquee: {

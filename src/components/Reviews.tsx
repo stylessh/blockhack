@@ -33,12 +33,12 @@ const reviews = [
 
 const Reviews = () => {
   return (
-    <section className="my-32 ml-12 overflow-x-hidden ">
-      <header>
+    <section className="my-32 overflow-x-hidden ">
+      <header className="ml-12">
         <h3>(Reviews)</h3>
       </header>
 
-      <div className="flex gap-10 mt-10 w-max ">
+      <div className="flex gap-10 mt-10 w-max animate-marquee-long">
         {reviews.map((review) => (
           <article
             key={review.id}

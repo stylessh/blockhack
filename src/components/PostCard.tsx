@@ -9,7 +9,13 @@ type PostCardProps = {
 
 const PostCard: FC<PostCardProps> = ({ title, date, featured }) => {
   return (
-    <article className={`${featured ? "bg-secondary-500 text-white border" : "border border-primary-500"} rounded-3xl p-4 flex flex-col justify-between`}>
+    <article
+      className={`${
+        featured
+          ? "bg-secondary-500 text-white border"
+          : "border border-primary-500 hover:bg-primary-500/10 transition"
+      } rounded-3xl p-4 flex flex-col justify-between`}
+    >
       <header className="mb-8">
         <h2 className="text-3xl md:text-6xl font-display">{title}</h2>
       </header>

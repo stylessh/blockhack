@@ -64,12 +64,12 @@ const Navbar = () => {
 
       {/* button */}
       <div className="items-center hidden space-x-2 md:flex">
-        <button className="inline-flex items-center px-8 py-1 text-2xl text-white border border-white rounded-full">
+        <button className="inline-flex items-center px-8 py-1 text-2xl text-white transition border border-white rounded-full hover:bg-white/10">
           <EthereumIcon className="mr-2" />
           ETHEREUM
         </button>
 
-        <button className="px-8 py-1 text-2xl border rounded-full text-primary-500 border-primary-500">
+        <button className="px-8 py-1 text-2xl transition border rounded-full text-primary-500 border-primary-500 hover:bg-primary-500/10">
           LOGIN
         </button>
       </div>

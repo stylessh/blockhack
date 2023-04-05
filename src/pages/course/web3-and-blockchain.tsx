@@ -51,248 +51,241 @@ const compositions = [
 const program = [
   {
     id: 1,
-    title: "Chapter 1: Introduction to Rollups",
+    title: "Chapter 1: Introduction to Web3 and Blockchain",
     lessons: 3,
     averageTime: "15m",
     episodes: [
       {
         id: 1,
-        title: "1. Understanding blockchain scalability challenges",
+        title: "1. The evolution of the Internet: from Web1 to Web3",
         time: "5m",
       },
       {
         id: 2,
         title:
-          "2. Defining Rollups: off-chain computation and data aggregation",
+          "2. Defining Web3: a decentralized vision for the Internet",
         time: "15m",
       },
       {
         id: 3,
-        title: "3. The role of Rollups in layer 2 scaling solutions",
+        title: "3. Blockchain technology: The foundation of Web3",
         time: "8m",
       },
     ],
   },
   {
     id: 2,
-    title: "Chapter 2: Types of Rollups",
+    title: "Chapter 2: Blockchain Fundamentals",
     lessons: 4,
     averageTime: "15m",
     episodes: [
       {
         id: 1,
-        title: "1. Optimistic Rollups: Overview and Mechanics",
+        title: "1. Distributed ledgers and consensus mechanisms",
         time: "5m",
       },
       {
         id: 2,
-        title: "2. ZK-Rollups: zero-knowledge proofs and privacy",
+        title: "2. Cryptocurrencies and digital assets",
         time: "15m",
       },
       {
         id: 3,
-        title: "3. Hybrid Rollups: combining optimistic and ZK-Rollups",
+        title: "3. Smart contracts: programmable logic on the blockchain",
         time: "8m",
-      },
-      {
-        id: 4,
-        title: "4. Comparing Rollup solutions: trade-offs and use cases",
-        time: "5m",
       },
     ],
   },
   {
     id: 3,
-    title: "Chapter 3: Rollup platforms and protocols",
+    title: "Chapter 3: Web3 platforms and ecosystems",
     lessons: 4,
     averageTime: "15m",
     episodes: [
       {
         id: 1,
-        title: "1. Optimistic Rollups: Overview and Mechanics",
+        title: "1. Ethereum: The first Web3 platform",
         time: "5m",
       },
       {
         id: 2,
-        title: "2. ZK-Rollups: zero-knowledge proofs and privacy",
+        title: "2. Alternative Web3-enabled blockchains",
         time: "15m",
       },
       {
         id: 3,
-        title: "3. Hybrid Rollups: combining optimistic and ZK-Rollups",
+        title: "3. Cross-chain interoperability and bridges",
         time: "8m",
-      },
-      {
-        id: 4,
-        title: "4. Comparing Rollup solutions: trade-offs and use cases",
-        time: "5m",
       },
     ],
   },
   {
     id: 4,
-    title: "Chapter 4: Rollup applications and use cases",
+    title: "Chapter 4: Decentralized finance (DeFi) and Web3",
     lessons: 4,
     averageTime: "15m",
     episodes: [
       {
         id: 1,
-        title: "1. Optimistic Rollups: Overview and Mechanics",
+        title: "1. Introduction to DeFi: a new financial paradigm",
         time: "5m",
       },
       {
         id: 2,
-        title: "2. ZK-Rollups: zero-knowledge proofs and privacy",
+        title: "2. DeFi protocols and platforms",
         time: "15m",
       },
       {
         id: 3,
-        title: "3. Hybrid Rollups: combining optimistic and ZK-Rollups",
+        title: "3. Financial instruments and services in Web3",
         time: "8m",
-      },
-      {
-        id: 4,
-        title: "4. Comparing Rollup solutions: trade-offs and use cases",
-        time: "5m",
       },
     ],
   },
   {
     id: 5,
-    title: "Chapter 5: Developing on Rollups",
+    title: "Chapter 5: Non-fungible tokens (NFTs) and Web3",
     lessons: 4,
     averageTime: "15m",
     episodes: [
       {
         id: 1,
-        title: "1. Optimistic Rollups: Overview and Mechanics",
+        title: "1. Understanding NFTs: uniqueness and digital scarcity",
         time: "5m",
       },
       {
         id: 2,
-        title: "2. ZK-Rollups: zero-knowledge proofs and privacy",
+        title: "2. NFT marketplaces and ecosystem",
         time: "15m",
       },
       {
         id: 3,
-        title: "3. Hybrid Rollups: combining optimistic and ZK-Rollups",
+        title: "3. NFT applications in art, gaming, and beyond",
         time: "8m",
-      },
-      {
-        id: 4,
-        title: "4. Comparing Rollup solutions: trade-offs and use cases",
-        time: "5m",
       },
     ],
   },
   {
     id: 6,
-    title: "Chapter 6: Rollup tokenomics and network economics",
+    title: "Chapter 6: Decentralized applications (dApps) and Web3",
     lessons: 4,
     averageTime: "15m",
     episodes: [
       {
         id: 1,
-        title: "1. Optimistic Rollups: Overview and Mechanics",
+        title: "1. Defining dApps: applications built on blockchain",
         time: "5m",
       },
       {
         id: 2,
-        title: "2. ZK-Rollups: zero-knowledge proofs and privacy",
+        title: "2. dApp development and design principles",
         time: "15m",
       },
       {
         id: 3,
-        title: "3. Hybrid Rollups: combining optimistic and ZK-Rollups",
+        title: "3. Popular dApps and use cases in the Web3 ecosystem",
         time: "8m",
-      },
-      {
-        id: 4,
-        title: "4. Comparing Rollup solutions: trade-offs and use cases",
-        time: "5m",
       },
     ],
   },
   {
     id: 7,
-    title: "Chapter 7: Rollup governance and ecosystem",
+    title: "Chapter 7: Decentralized autonomous organizations (DAOs) and Web3",
     lessons: 4,
     averageTime: "15m",
     episodes: [
       {
         id: 1,
-        title: "1. Optimistic Rollups: Overview and Mechanics",
+        title: "1. Introduction to DAOs: self-governing organizations",
         time: "5m",
       },
       {
         id: 2,
-        title: "2. ZK-Rollups: zero-knowledge proofs and privacy",
+        title: "2. Governance models and tokens",
         time: "15m",
       },
       {
         id: 3,
-        title: "3. Hybrid Rollups: combining optimistic and ZK-Rollups",
+        title: "3. DAO use cases and success stories",
         time: "8m",
-      },
-      {
-        id: 4,
-        title: "4. Comparing Rollup solutions: trade-offs and use cases",
-        time: "5m",
       },
     ],
   },
   {
     id: 8,
-    title: "Chapter 9: The future of Rollups and blockchain scalability",
+    title: "Chapter 8: Identity, privacy, and security in Web3",
     lessons: 4,
     averageTime: "15m",
     episodes: [
       {
         id: 1,
-        title: "1. Optimistic Rollups: Overview and Mechanics",
+        title: "1. Decentralized identity and self-sovereign identity (SSI)",
         time: "5m",
       },
       {
         id: 2,
-        title: "2. ZK-Rollups: zero-knowledge proofs and privacy",
+        title: "2. Privacy-enhancing technologies and zero-knowledge proofs",
         time: "15m",
       },
       {
         id: 3,
-        title: "3. Hybrid Rollups: combining optimistic and ZK-Rollups",
+        title: "3. Web3 security best practices and risk management",
         time: "8m",
-      },
-      {
-        id: 4,
-        title: "4. Comparing Rollup solutions: trade-offs and use cases",
-        time: "5m",
       },
     ],
   },
   {
     id: 9,
-    title: "Chapter 2: Types of Rollups",
+    title: "Chapter 9: The Future of Web3 and Blockchains",
     lessons: 4,
     averageTime: "15m",
     episodes: [
       {
         id: 1,
-        title: "1. Optimistic Rollups: Overview and Mechanics",
+        title: "1. Emerging technologies and innovations",
         time: "5m",
       },
       {
         id: 2,
-        title: "2. ZK-Rollups: zero-knowledge proofs and privacy",
+        title: "2. Web3 in the metaverse and virtual worlds",
         time: "15m",
       },
       {
         id: 3,
-        title: "3. Hybrid Rollups: combining optimistic and ZK-Rollups",
+        title: "3. Scalability solutions: layer 2 and beyond",
         time: "8m",
       },
       {
         id: 4,
-        title: "4. Comparing Rollup solutions: trade-offs and use cases",
+        title: "4. The long-term vision for decentralized Internet",
+        time: "5m",
+      },
+    ],
+  },
+  {
+    id: 10,
+    title: "Chapter 10: Practical Web3 exploration and adoption",
+    lessons: 4,
+    averageTime: "15m",
+    episodes: [
+      {
+        id: 1,
+        title: "1. Setting up a Web3 Wallet and interacting with dApps",
+        time: "5m",
+      },
+      {
+        id: 2,
+        title: "2. Web3 development tools and resources",
+        time: "15m",
+      },
+      {
+        id: 3,
+        title: "3. Building a Web3-enabled personal or business strategy",
+        time: "8m",
+      },
+      {
+        id: 4,
+        title: "4. Case studies and real-world implementations",
         time: "5m",
       },
     ],
@@ -329,7 +322,7 @@ const Web3AndBlockchain = () => {
 
             <Link
               href="#"
-              className="block px-8 py-1 mx-auto mt-6 text-2xl text-white border border-white rounded-full w-max font-display"
+              className="block px-8 py-1 mx-auto mt-6 text-2xl text-white transition border border-white rounded-full w-max font-display hover:bg-white/10"
             >
               Start now
             </Link>
@@ -421,7 +414,7 @@ const Web3AndBlockchain = () => {
 
             <Link
               href="#"
-              className="inline-block px-8 py-1 mt-6 text-2xl text-white border border-white rounded-full w-max font-display"
+              className="inline-block px-8 py-1 mt-6 text-2xl text-white transition border border-white rounded-full w-max font-display hover:bg-white/10"
             >
               Start now
             </Link>
@@ -516,7 +509,7 @@ const Web3AndBlockchain = () => {
                 <li>The fourth course description</li>
               </ul>
 
-              <button className="w-full py-2 mt-6 text-2xl uppercase border border-black rounded-full font-display">
+              <button className="w-full py-2 mt-6 text-2xl uppercase transition border border-black rounded-full font-display hover:bg-black/10">
                 Buy now
               </button>
             </div>
@@ -548,7 +541,7 @@ const Web3AndBlockchain = () => {
                 <li>The fourth course description</li>
               </ul>
 
-              <button className="w-full py-2 mt-6 text-2xl uppercase border border-white rounded-full font-display">
+              <button className="w-full py-2 mt-6 text-2xl uppercase transition border border-white rounded-full font-display hover:bg-white/10">
                 Buy now
               </button>
             </div>

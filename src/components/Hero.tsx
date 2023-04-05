@@ -16,7 +16,7 @@ const Hero = () => {
             <p className="font-semibold">
               Are You Ready to Start Your Journey?
             </p>
-            <button className="inline-flex items-center px-8 py-1 mt-5 text-xl text-white border border-white rounded-full text-md font-display">
+            <button className="inline-flex items-center px-8 py-1 mt-5 text-xl text-white transition border border-white rounded-full text-md font-display hover:bg-white/10">
               START JOURNEY TODAY
             </button>
           </div>
