@@ -3550,3 +3550,126 @@ export const Layer2Illustration: FC<SVGProps<SVGSVGElement>> = (props) => {
     </svg>
   );
 };
+
+export const BitcoinBoxIllustration: FC<SVGProps<SVGSVGElement>> = (props) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 160 153"
+      {...props}
+    >
+      <path
+        fill="#fff"
+        stroke="#000"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        d="M79.645 95.87L31 65.936 79.645 36l48.645 29.935-48.645 29.936z"
+      ></path>
+      <path
+        fill="#fff"
+        stroke="#000"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        d="M31 122.064V65.936L79.645 95.87V152L31 122.064zM128.291 122.064V65.936L79.646 95.87V152l48.645-29.936z"
+      ></path>
+      <path
+        fill="#fff"
+        stroke="#000"
+        strokeWidth="2"
+        d="M2.5 31.5l29 34.5L80 35.524 50.517 2 2.5 31.5zM157.5 31.5l-29 34.5L80 35.524 109.483 2 157.5 31.5z"
+      ></path>
+      <path
+        fill="#D9D9D9"
+        stroke="#000"
+        d="M87.385 82.806c-2.728 1.24-5.8 1.704-8.23 1.76-2.768.065-4.614-2.017-5.317-4.696l5.726-1.524 15.572-7.592c1.729 1.869 2.087 4.73.337 6.58-1.795 1.896-4.3 3.75-8.088 5.472z"
+      ></path>
+      <path
+        fill="#fff"
+        stroke="#000"
+        d="M74.252 80.411c-.203-.485-.182-1.084.11-1.794.294-.712.847-1.5 1.641-2.31 1.588-1.619 4.068-3.259 7.068-4.511 3.001-1.253 5.911-1.863 8.178-1.853 1.135.005 2.084.165 2.796.458.71.291 1.151.698 1.354 1.183.202.486.181 1.085-.11 1.794-.294.713-.847 1.5-1.642 2.31-1.587 1.62-4.067 3.259-7.068 4.511-3 1.253-5.91 1.863-8.178 1.853-1.135-.005-2.083-.165-2.796-.458-.71-.291-1.15-.697-1.353-1.183z"
+      ></path>
+    </svg>
+  );
+};
+
+export const CubeIllustration: FC<SVGProps<SVGSVGElement>> = (props) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 73 86"
+      {...props}
+    >
+      <path
+        fill="#fff"
+        stroke="#000"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        d="M36.226 44.355L1 22.677 36.226 1 71.45 22.677 36.226 44.355zM1 63.323V22.678l35.226 21.677V85L1 63.323z"
+      ></path>
+      <path
+        fill="#fff"
+        stroke="#000"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        d="M71.451 63.322V22.677L36.225 44.355V85l35.226-21.678z"
+      ></path>
+    </svg>
+  );
+};
+
+export const EtherBoxIllustration: FC<SVGProps<SVGSVGElement>> = (props) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 217 208"
+      {...props}
+    >
+      <path
+        fill="#fff"
+        stroke="#000"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        d="M106.5 130.615L41 90.308 106.5 50 172 90.308l-65.5 40.307zM41 165.885V90.308l65.5 40.308v75.576L41 165.885zM172 165.885V90.308l-65.5 40.308v75.576l65.5-40.307z"
+      ></path>
+      <path
+        fill="#fff"
+        stroke="#000"
+        strokeWidth="2"
+        d="M106.5 130.5v-80l65.5 40-65.5 40zM2 43l39 47 65.5-40-39-44L2 43zM151 140.5l-44-10 65.5-40 41 9-62.5 41z"
+      ></path>
+      <path
+        fill="#D9D9D9"
+        stroke="#000"
+        strokeLinejoin="round"
+        d="M111.801 43.918l28.451 23.126-43.192 3.41-25.742-24.698 40.483-1.838z"
+      ></path>
+      <path
+        fill="#BFFF0A"
+        stroke="#000"
+        strokeLinejoin="round"
+        d="M97.095 62.096L114.95 6.61l26.539 52.628-44.395 2.858z"
+      ></path>
+      <path
+        fill="#5945FE"
+        stroke="#000"
+        strokeLinejoin="round"
+        d="M97.097 62.096L73.14 39.18l41.812-32.57-17.856 55.486z"
+      ></path>
+      <path
+        fill="#BFFF0A"
+        stroke="#000"
+        strokeLinejoin="round"
+        d="M96.383 70.337l5.314 35.299 38.539-38.554-43.853 3.255z"
+      ></path>
+      <path
+        fill="#5945FE"
+        stroke="#000"
+        strokeLinejoin="round"
+        d="M96.383 70.338L71.305 45.836l30.392 59.8-5.314-35.298z"
+      ></path>
+    </svg>
+  );
+};

@@ -1,6 +1,9 @@
 import {
+  BitcoinBoxIllustration,
   BitcoinToEthereumIllustration,
+  CubeIllustration,
   DEFIIllustration,
+  EtherBoxIllustration,
   MetaverseIllustration,
   NFTIllustration,
   RollupsIllustration,
@@ -22,14 +25,18 @@ const Course = () => {
       <main className="text-white bg-black">
         {/* hero */}
         <section className="grid h-screen bg-secondary-500 place-items-center">
-          <h1 className="font-display text-8xl md:text-[14em]">Courses</h1>
+          <h1 className="font-display text-8xl md:text-[16em]">Courses</h1>
+
+          <CubeIllustration className="absolute w-20 left-[35%] top-[55%] hidden md:block" />
+          <BitcoinBoxIllustration className="absolute w-28 left-[44%] top-[30%] hidden md:block" />
+          <EtherBoxIllustration className="absolute w-32 left-[60%] top-[50%] hidden md:block" />
         </section>
 
         <section className="min-h-screen bg-black rounded-t-[4em] grid md:grid-cols-[20%,1fr] -mt-[4em]">
           <article></article>
 
           {/* all courses */}
-          <article className="px-4 py-16 space-y-10 md:p-16">
+          <article className="px-4 py-16 space-y-10 md:px-16 md:py-16">
             {/* card one */}
             <article className="grid p-6 text-black md:grid-cols-2 bg-primary-500 rounded-3xl">
               <div className="flex flex-col justify-center">
