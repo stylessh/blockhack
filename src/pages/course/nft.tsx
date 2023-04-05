@@ -65,8 +65,7 @@ const program = [
       },
       {
         id: 2,
-        title:
-          "2. Evolution of NFTs: from cryptoKitties to digital art",
+        title: "2. Evolution of NFTs: from cryptoKitties to digital art",
         time: "15m",
       },
       {
@@ -289,8 +288,8 @@ const NFT = () => {
             <NFTIllustration className="mx-auto -mt-10 w-96" />
 
             <p className="mx-auto mt-4 text-center md:w-1/2">
-              Give your React knowledge an upgrade and start writing hooks
-              today.
+              Unleashing the Creative Economy and Redefining Ownership in the
+              Digital World.
             </p>
 
             <Link
@@ -338,10 +337,9 @@ const NFT = () => {
           <article>
             <header>
               <p className="text-xl md:w-1/2">
-                This course plan provides a comprehensive framework for
-                mastering NFTs, covering their fundamentals, technologies,
-                ecosystem, applications, valuation, creation, buying and
-                selling, marketing, legal aspects, and the future of NFTs.
+                Uncover the world of non-fungible tokens, their creation, and
+                use cases. Learn how to mint, buy, sell, and utilize NFTs in
+                various industries, including gaming, art, and collectibles.
               </p>
             </header>
 

@@ -62,8 +62,7 @@ const program = [
       },
       {
         id: 2,
-        title:
-          "2. Defining Web3: a decentralized vision for the Internet",
+        title: "2. Defining Web3: a decentralized vision for the Internet",
         time: "15m",
       },
       {
@@ -365,10 +364,9 @@ const Web3AndBlockchain = () => {
           <article>
             <header>
               <p className="text-xl md:w-1/2">
-                This course plan offers a comprehensive journey into Web3 and
-                blockchain, covering their fundamentals, platforms, DeFi, NFTs,
-                dApps, DAOs, identity, privacy, security, future developments,
-                and practical exploration.
+                Master the fundamentals of blockchain technology and Web3. Grasp
+                core concepts, consensus mechanisms, and smart contracts, paving
+                the way for advanced understanding and applications.
               </p>
             </header>
 

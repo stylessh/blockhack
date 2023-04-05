@@ -64,8 +64,7 @@ const program = [
       },
       {
         id: 2,
-        title:
-          "2. Evolution of virtual worlds: from gaming to Metaverse",
+        title: "2. Evolution of virtual worlds: from gaming to Metaverse",
         time: "15m",
       },
       {
@@ -162,7 +161,8 @@ const program = [
     episodes: [
       {
         id: 1,
-        title: "1. Decentralized autonomous organizations (DAOs) in the Metaverse",
+        title:
+          "1. Decentralized autonomous organizations (DAOs) in the Metaverse",
         time: "5m",
       },
       {
@@ -339,8 +339,8 @@ const Metaverse = () => {
             <MetaverseIllustration className="mx-auto -mt-10 w-72" />
 
             <p className="mx-auto mt-4 text-center md:w-1/2">
-              Give your React knowledge an upgrade and start writing hooks
-              today.
+              Exploring the Intersection of Virtual Reality, Blockchain, and the
+              Digital Frontier.
             </p>
 
             <Link
@@ -388,10 +388,10 @@ const Metaverse = () => {
           <article>
             <header>
               <p className="text-xl md:w-1/2">
-                This course plan offers a comprehensive journey into the
-                Metaverse, covering its fundamentals, economy, governance,
-                development, the future of work and education, marketing,
-                emerging trends, and practical exploration.
+                Delve into the world of virtual reality and blockchain. Study
+                the emergence, growth, and implications of metaverse platforms,
+                digital assets, and communities while discovering new
+                opportunities.
               </p>
             </header>
 

@@ -63,8 +63,7 @@ const program = [
       },
       {
         id: 2,
-        title:
-          "2. The rise of DeFi: evolution and growth",
+        title: "2. The rise of DeFi: evolution and growth",
         time: "15m",
       },
       {
@@ -333,8 +332,8 @@ const DEFI = () => {
             <DEFIIllustration className="mx-auto -mt-10 w-72" />
 
             <p className="mx-auto mt-4 text-center md:w-1/2">
-              Give your React knowledge an upgrade and start writing hooks
-              today.
+              Unlocking the Potential of Decentralized Finance and Empowering
+              the Future of Money Management.
             </p>
 
             <Link
@@ -382,10 +381,10 @@ const DEFI = () => {
           <article>
             <header>
               <p className="text-xl md:w-1/2">
-                This course plan provides a comprehensive framework for
-                mastering DeFi, covering its fundamentals, platforms, financial
-                instruments, passive income opportunities, governance, risk
-                management, and practical applications.
+                Explore decentralized finance, its core concepts, and
+                applications. Learn how to leverage DeFi protocols to manage
+                digital assets, earn passive income, and understand emerging
+                trends.
               </p>
             </header>
 

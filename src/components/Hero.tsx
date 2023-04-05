@@ -2,7 +2,7 @@ import { PhoneIllustration } from "@/ui/illustrations";
 
 const Hero = () => {
   return (
-    <section className="mt-10 mb-32 w-[95%] m-auto relative overflow-hidden">
+    <section className="my-28 w-[95%] m-auto relative overflow-hidden">
       <article className="border rounded-[50px] overflow-hidden grid md:grid-cols-2 md:h-[580px]">
         <article className="grid mt-16 place-items-center md:mt-0">
           <div className="w-[80%]">

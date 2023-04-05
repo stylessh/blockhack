@@ -23,7 +23,7 @@ const Footer = () => {
               className="flex-1 text-black bg-transparent outline-none placeholder:text-gray-700"
             />
 
-            <button className="text-2xl font-display">Send</button>
+            <button className="text-2xl font-display">SIGN UP</button>
           </form>
         </article>
 

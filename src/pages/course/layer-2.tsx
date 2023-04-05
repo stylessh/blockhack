@@ -65,8 +65,7 @@ const program = [
       },
       {
         id: 2,
-        title:
-          "2. Defining Layer 2: off-chain scaling solutions",
+        title: "2. Defining Layer 2: off-chain scaling solutions",
         time: "15m",
       },
       {
@@ -355,8 +354,8 @@ const Layer2 = () => {
             <Layer2Illustration className="mx-auto -mt-10 w-96" />
 
             <p className="mx-auto mt-4 text-center md:w-1/2">
-              Give your React knowledge an upgrade and start writing hooks
-              today.
+              Accelerating Blockchain Adoption Through Enhanced Scalability and
+              Optimized Performance.
             </p>
 
             <Link
@@ -404,11 +403,10 @@ const Layer2 = () => {
           <article>
             <header>
               <p className="text-xl md:w-1/2">
-                This course plan provides a comprehensive framework for
-                mastering Layer 2 solutions, covering their fundamentals,
-                technologies, platforms, applications, development, tokenomics,
-                governance, risk management, future developments, and practical
-                integration.
+                Discover the power of Layer 2 solutions and their role in
+                enhancing blockchain performance. Learn about various Layer 2
+                technologies, their strengths, and weaknesses, and how to deploy
+                them effectively.
               </p>
             </header>
 

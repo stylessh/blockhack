@@ -7,14 +7,14 @@ import { XMarkIcon } from "@heroicons/react/24/solid";
 
 const Navbar = () => {
   return (
-    <header className="bg-black text-white font-display w-[95%] mx-auto my-4 flex items-center justify-between">
+    <header className="bg-transparent text-white font-display absolute left-0 top-0 right-0 w-[95%] mx-auto my-4 flex items-center justify-between z-50">
       <Link href="/" className="text-3xl">
         BLOCKHACK
       </Link>
 
       <Menu
         as="nav"
-        className="absolute top-0 right-0 z-50 flex flex-col items-center outline-none md:-translate-x-1/2 md:left-1/2"
+        className="absolute right-0 z-50 flex flex-col items-center outline-none -top-5 md:-translate-x-1/2 md:left-1/2"
       >
         <Menu.Items className="flex flex-col text-center text-black divide-y divide-black shadow-2xl w-72 top-12 bg-primary-500 rounded-2xl">
           <Menu.Item>

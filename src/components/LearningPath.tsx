@@ -1,7 +1,9 @@
 import {
   BitcoinToEthereumIllustration,
+  DEFIIllustration,
   EthereumDeskIllustration,
   StairsIllustration,
+  Web3AndBlockchainIllustration,
 } from "@/ui/illustrations";
 import { StarIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
@@ -25,17 +27,16 @@ const LearningPath = () => {
         <article className="grid p-6 text-black md:grid-cols-2 bg-primary-500 rounded-3xl">
           <div className="flex flex-col justify-center">
             <h2 className="text-secondary-500 text-6xl md:text-[8em] font-display leading-none">
-              Rollups
+              Web3 and Blockchain
             </h2>
             <p className="my-4 font-semibold w-[80%]">
-              This course plan provides a comprehensive framework for mastering
-              Rollups, covering their fundamentals, types, platforms,
-              applications, development, tokenomics, governance, risk
-              management, future developments, and practical integration.
+              Master the fundamentals of blockchain technology and Web3. Grasp
+              core concepts, consensus mechanisms, and smart contracts, paving
+              the way for advanced understanding and applications.
             </p>
 
             <Link
-              href="/course/rollups"
+              href="/course/web3-and-blockchain"
               className="block mt-2 text-3xl underline uppercase font-display"
             >
               Learn More
@@ -59,7 +60,7 @@ const LearningPath = () => {
               <h3 className="text-xl text-gray-500">49 feedback</h3>
             </div>
 
-            <StairsIllustration className="w-full md:mr-8" />
+            <Web3AndBlockchainIllustration className="w-full md:w-96 md:mr-8" />
           </div>
         </article>
 
@@ -109,17 +110,17 @@ const LearningPath = () => {
         <article className="grid p-6 text-white border md:grid-cols-2 bg-secondary-500 rounded-3xl">
           <div className="flex flex-col justify-center">
             <h2 className="text-primary-500 text-6xl md:text-[8em] font-display leading-none">
-              Metaverse
+              DeFi
             </h2>
             <p className="my-4 font-semibold w-[80%]">
-              This course plan offers a comprehensive journey into the
-              Metaverse, covering its fundamentals, economy, governance,
-              development, the future of work and education, marketing, emerging
-              trends, and practical exploration.
+              Explore decentralized finance, its core concepts, and
+              applications. Learn how to leverage DeFi protocols to manage
+              digital assets, earn passive income, and understand emerging
+              trends.
             </p>
 
             <Link
-              href="/course/metaverse"
+              href="/course/defi"
               className="block mt-2 text-3xl underline uppercase font-display"
             >
               Learn More
@@ -143,12 +144,12 @@ const LearningPath = () => {
               <h3 className="text-xl text-gray-300">60 feedback</h3>
             </div>
 
-            <EthereumDeskIllustration className="w-full md:mr-8" />
+            <DEFIIllustration className="w-full md:w-96 md:mr-8" />
           </div>
         </article>
 
         <Link
-          href="#"
+          href="/course"
           className="block mt-2 text-3xl underline uppercase font-display"
         >
           More Courses
