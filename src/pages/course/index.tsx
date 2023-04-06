@@ -1,3 +1,6 @@
+import About from "@/components/About";
+import Footer from "@/components/Footer";
+import Reviews from "@/components/Reviews";
 import {
   BitcoinBoxIllustration,
   BitcoinToEthereumIllustration,
@@ -27,9 +30,9 @@ const Course = () => {
         <section className="grid h-screen bg-secondary-500 place-items-center">
           <h1 className="font-display text-8xl md:text-[16em]">Courses</h1>
 
-          <CubeIllustration className="absolute w-20 left-[35%] top-[55%] hidden md:block" />
-          <BitcoinBoxIllustration className="absolute w-28 left-[44%] top-[30%] hidden md:block" />
-          <EtherBoxIllustration className="absolute w-32 left-[60%] top-[50%] hidden md:block" />
+          <CubeIllustration className="absolute w-10 left-[22%] top-[50%] md:w-20 md:left-[35%] md:top-[55%]" />
+          <BitcoinBoxIllustration className="absolute w-14 md:w-28 left-[44%] top-[40%] md:top-[30%]" />
+          <EtherBoxIllustration className="absolute w-14 left-[70%] md:w-32 md:left-[60%] top-[50%]" />
         </section>
 
         <section className="min-h-screen bg-black rounded-t-[4em] grid md:grid-cols-[20%,1fr] -mt-[4em]">
@@ -291,7 +294,12 @@ const Course = () => {
             </article>
           </article>
         </section>
+
+        <Reviews />
+        <About />
       </main>
+
+      <Footer />
     </>
   );
 };
